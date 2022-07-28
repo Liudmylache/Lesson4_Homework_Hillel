@@ -1,5 +1,4 @@
 import java.nio.charset.StandardCharsets;
-import java.sql.SQLOutput;
 
 public class Baby {
     String name;
@@ -13,7 +12,7 @@ public class Baby {
             this.gender = gender;
             this.secondName = secondName;
             this.birthYear = birthYear;
-
+// no catching
         } catch (NullPointerException ex){
             System.out.println("Exception");
         }
